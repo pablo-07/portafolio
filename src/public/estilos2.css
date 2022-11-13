@@ -1,0 +1,59 @@
+h2{
+    color:white;
+}
+body{
+    background-image: url(/img/fondo.jpg);
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: #6C03EF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 50px;  
+}
+.avatar{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar img{
+    height: 400px;
+    display: flex;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 70px;
+    font-size: 125%;
+}
+nav a:hover{
+    color:black;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    color: white;
+}
